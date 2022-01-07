@@ -34,9 +34,26 @@ describe "the add a review process" do
   end
   it "gives an error when no content or rating is entered" do
     visit new_product_path
-    fill_in 'Name', :with => 'Vegan cheddar'
-    click_on 'Create Product'
-    expect(page).to have_content "Country of origin can't be blank"
-    expect(page).to have_content "Cost can't be blank"
+    visit products_path
+    click_on 'Canned Olives'
+    click_on 'Add a review'
+    fill_in 'Author', :with => 'Morgan'
+    click_on 'Create Review'
+    expect(page).to have_content "There was an error in creating your review."
+    expect(page).to have_content "Rating can't be blank"
+    expect(page).to have_content "Content body can't be blank"
+  end
+  it "gives an error when rating is out of range content body length out of range" do
+    visit new_product_path
+    visit products_path
+    click_on 'Canned Olives'
+    click_on 'Add a review'
+    fill_in 'Author', :with => 'Morgan'
+    fill_in 'Rating', :with => 10
+    fill_in 'Content body', :with => 'It was awful terrible disgusting I hated it.'
+    click_on 'Create Review'
+    expect(page).to have_content "There was an error in creating your review."
+    expect(page).to have_content "Rating is not included in the list"
+    expect(page).to have_content "Content body is too short (minimum is 50 characters)"
   end
 end
