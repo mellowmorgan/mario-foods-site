@@ -2,7 +2,7 @@
 
 <h3>Author: <%= @review.author %></h3>
 <h3>Rating: <%= @review.rating %>
-<p>Review: <%= @review.content_body %></p>
+<p>Review: <q><%= @review.content_body %></q></p>
 
 
 <p><%= link_to "Edit", edit_product_review_path(@product, @review) %></p>

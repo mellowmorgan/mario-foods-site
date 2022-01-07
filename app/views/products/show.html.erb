@@ -17,7 +17,7 @@
     <%= link_to "Review by " + review.author, product_review_path(@product, review) %>
     <ul>
       <li>Rating: <%= review.rating %></li>
-      <li><%= review.content_body%></li>
+      <li>Review: <q><%= review.content_body%></q></li>
     </ul>
   <% end %>
 <% else %>
