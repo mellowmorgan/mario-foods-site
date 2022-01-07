@@ -11,3 +11,20 @@
                                        :method => "delete"} %></p>
 
 <p><%= link_to "Return to products", products_path %></p>
+
+<br>
+<h2>Reviews</h2>
+<% if @product.reviews.any? %>
+<% @product.reviews.each do |review| %>
+
+      <%= link_to "Review by " + review.author, product_review_path(@product, review) %>
+      <p>Rating: <%= review.rating %></p>
+      <p><q><%= review.content_body%></q></p>
+
+<% end %>
+<% else %>
+<p>No reviews yet.</p>
+<% end %>
+
+
+
