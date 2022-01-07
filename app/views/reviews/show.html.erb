@@ -1,8 +1,9 @@
 <h2>Review for <%= @product.name %>
 
-<h3><%= @review.author %></h3>
-<h3>$<%= @review.content_body %></h3>
-<h3><%= @review.rating %></h3>
+<h3>Author: <%= @review.author %></h3>
+<h3>Rating: <%= @review.rating %>
+<p>Review: <%= @review.content_body %></p>
+
 
 <p><%= link_to "Edit", edit_product_review_path(@product, @review) %></p>
 <p><%= link_to "Delete review", product_review_path(@review),

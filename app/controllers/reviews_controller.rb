@@ -24,10 +24,11 @@ class ReviewsController < ApplicationController
   #   render :edit
   # end
 
-  # def show
-  #   @review = Review.find(params[:id])
-  #   render :show
-  # end
+  def show
+    @product = Product.find(params[:product_id])
+    @review = Review.find(params[:id])
+    render :show
+  end
 
   # def update
   #   @review = Review.find(params[:id])

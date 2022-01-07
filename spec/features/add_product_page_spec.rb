@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe "the add a project process" do
-  it "adds a new project" do
+describe "the add a product process" do
+  it "adds a new product" do
     visit products_path
     click_link 'Add a product'
     fill_in 'Name', :with => 'Canned olives'
