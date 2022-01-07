@@ -13,16 +13,15 @@
 <br>
 <h2>Reviews</h2>
 <% if @product.reviews.any? %>
-<% @product.reviews.each do |review| %>
-  
-      <%= link_to "Review by " + review.author, product_review_path(@product, review) %>
-      <ul>
+  <% @product.reviews.each do |review| %> 
+    <%= link_to "Review by " + review.author, product_review_path(@product, review) %>
+    <ul>
       <li>Rating: <%= review.rating %></li>
       <li><%= review.content_body%></li>
-</ul>
-<% end %>
+    </ul>
+  <% end %>
 <% else %>
-<p>No reviews yet.</p>
+  <p>No reviews yet.</p>
 <% end %>
 
 <p><%= link_to "Add a review", new_product_review_path(@product) %></p>

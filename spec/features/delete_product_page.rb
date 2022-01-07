@@ -13,5 +13,4 @@ describe "the delete a product process" do
     
     expect(page).to have_no_content 'Canned Olives'
   end
-
 end
