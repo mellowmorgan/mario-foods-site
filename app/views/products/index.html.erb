@@ -11,6 +11,6 @@
   <p>No products to display yet.</p>
 <% end %>
 <p><%= link_to "Add a product", new_product_path %></p>
-<h4>Product with most reviews: <%= link_to Product.most_reviews.name, product_path(Product.most_reviews) %><h4>
+<h4>Product with most reviews: <%= Product.most_reviews.name %><h4>
 <h4>Keep it local! Products made in USA: </h4>
 
