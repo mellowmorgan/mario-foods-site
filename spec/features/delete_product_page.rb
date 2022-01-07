@@ -10,7 +10,7 @@ describe "the delete a product process" do
     click_on 'Create Product'
     click_on 'Canned Olives'
     click_on 'Delete Product'
-    
+    expect(page).to have_content 'Product deleted successfully.'
     expect(page).to have_no_content 'Canned Olives'
   end
 end
