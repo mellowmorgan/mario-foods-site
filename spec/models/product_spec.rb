@@ -40,15 +40,5 @@ describe Product do
       expect(Product.most_reviews).to(eq(product1))
     end
   end
-  describe ('.same_review_count') do
-    it("returns product with most reviews") do
-      product1 = Product.create({name: "canned olives", cost: 3.99, country_of_origin: "Italy"})
-      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "USA"})
-      product3 = Product.create({name: "pink artichokes", cost: 5.99, country_of_origin: "Italy"})
-      review1 = Review.create({author: "Morgan", rating: 5, product_id:product1.id, content_body: "Hi wehrkwjehr ewhrkwehrkjh wer wher hwekhrwehr hw rkhkewhr whrkwherkwhr h wrhkwherjkw  wh"})
-      review2 = Review.create({author: "Morgan W", rating: 4, product_id:product2.id, content_body: "Hi wehrkwjehr ewhrkwehrkjh wer wher hwekhrwehr hw rkhkewhr whrkwherkwhr h wrhkwherjkw  wh"})
-      review3 = Review.create({author: "Morgan P", rating: 2,product_id:product3.id, content_body: "Hi wehrkwjehr ewhrkwehrkjh wer wher hwekhrwehr hw rkhkewhr whrkwherkwhr h wrhkwherjkw  wh"})
-      expect(Product.same_review_count?).to(eq(true))
-    end
-  end
+  
 end
