@@ -12,27 +12,27 @@ describe Product do
   describe ('.most_recently_added') do
     it("returns 3 most recently added products") do
       product1 = Product.create({name: "canned olives", cost: 3.99, country_of_origin: "Italy"})
-      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "USA"})
+      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "United States of America"})
       product3 = Product.create({name: "pink artichokes", cost: 5.99, country_of_origin: "Italy"})
       product4 = Product.create({name: "red wine", cost: 1.99, country_of_origin: "France"})
-      product5 = Product.create({name: "black bean tempeh", cost: 5.99, country_of_origin: "USA"})
+      product5 = Product.create({name: "black bean tempeh", cost: 5.99, country_of_origin: "United States of America"})
       expect(Product.most_recently_added).to(eq([product5,product4,product3]))
     end
   end
   describe ('.made_in_usa') do
     it("returns all products made in usa") do
       product1 = Product.create({name: "canned olives", cost: 3.99, country_of_origin: "Italy"})
-      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "USA"})
+      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "United States of America"})
       product3 = Product.create({name: "pink artichokes", cost: 5.99, country_of_origin: "Italy"})
       product4 = Product.create({name: "red wine", cost: 1.99, country_of_origin: "France"})
-      product5 = Product.create({name: "black bean tempeh", cost: 5.99, country_of_origin: "USA"})
+      product5 = Product.create({name: "black bean tempeh", cost: 5.99, country_of_origin: "United States of America"})
       expect(Product.made_in_usa).to(eq([product2, product5]))
     end
   end
   describe ('.most_reviews') do
     it("returns product with most reviews") do
       product1 = Product.create({name: "canned olives", cost: 3.99, country_of_origin: "Italy"})
-      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "USA"})
+      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "United States of America"})
       product3 = Product.create({name: "pink artichokes", cost: 5.99, country_of_origin: "Italy"})
       review1 = Review.create({author: "Morgan", rating: 5, product_id:product1.id, content_body: "Hi wehrkwjehr ewhrkwehrkjh wer wher hwekhrwehr hw rkhkewhr whrkwherkwhr h wrhkwherjkw  wh"})
       review2 = Review.create({author: "Morgan W", rating: 4, product_id:product2.id, content_body: "Hi wehrkwjehr ewhrkwehrkjh wer wher hwekhrwehr hw rkhkewhr whrkwherkwhr h wrhkwherjkw  wh"})
