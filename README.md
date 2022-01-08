@@ -1,9 +1,8 @@
-# _Mario's Food Reviews_
+# _Mario's Food Products & Reviews_
 
 #### _Ruby on Rails with Active Record Practice project for Epicodus Bootcamp_
 
 #### Created By: Morgan Waites
-
 
 ## Technologies Used
 
@@ -26,7 +25,7 @@
 
 ## Description
 
-_This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record. The application is for a company to organize products and their reviews. The user can add/remove/edit products and reviews belonging to them, show one-to-many relationship.
+_This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record. The application is for Mario's company to organize products and their reviews. The user can add/remove/edit products and reviews belonging to them, shows one-to-many relationship.
 
 ## Database Schema
 
@@ -40,10 +39,10 @@ _(Note: Ruby gem dependencies will be installed automatically by Bundler.)_
 
 ## Setup/Installation Requirements
 
-* Clone the GitHub repository: [https://github.com/mellowmorgan/mario-foods-project.git]
+* Clone the GitHub repository: https://github.com/mellowmorgan/mario-foods-site.git
 * From the main project directory, enter `bundle install` in the terminal to populate gems.
 * To create a database, type in your terminal:  
-      `rake db:seed`
+      `rake db:setup`
 * Enter `rspec` into the terminal to confirm passing of all tests.
 * Run `rails s` to start the Rails server.
 * Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
