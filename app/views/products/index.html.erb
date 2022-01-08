@@ -11,6 +11,25 @@
   <p>No products to display yet.</p>
 <% end %>
 <p><%= link_to "Add a product", new_product_path %></p>
-<h4>Product with most reviews: <%= Product.most_reviews.name %><h4>
-<h4>Keep it local! Products made in USA: </h4>
+
+<% if !Product.same_review_count? %>
+  <h4>Product with most reviews: <%= Product.most_reviews.name %><h4>
+<% end %>
+<% if Product.made_in_usa.any? %>
+  <h4>Keep it local! Products made in United States: </h4>
+  <ul>
+    <% Product.made_in_usa.each do |product_usa| %>
+      <li><%= product_usa.name %></li>
+  </ul>
+  <% end %>
+<% end %>
+
+<% if Product.most_recently_added.any? %>
+<h4>Most Resently Added Products: </h4>
+  <ol>
+  <% Product.most_recently_added.each do |product_recent| %>
+    <li><%= product_recent.name %></li>
+  <% end %>
+  </ol>
+<% end %>
 
