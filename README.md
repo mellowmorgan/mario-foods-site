@@ -53,5 +53,4 @@ _(Note: Ruby gem dependencies will be installed automatically by Bundler.)_
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)_
-Copyright (c) _2022_ _Morgan Waites_
+[MIT](https://opensource.org/licenses/MIT) Copyright (c) 2022 Morgan Waites
