@@ -25,7 +25,7 @@
 
 ## Description
 
-_This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record. The application is for Mario's company to organize products and their reviews. The user can add/remove/edit products and reviews belonging to them, shows one-to-many relationship.
+This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record. The application is for Mario's company to organize products and their reviews. The user can add/remove/edit products and reviews belonging to them, shows one-to-many relationship.
 
 ## Database Schema
 
@@ -53,5 +53,5 @@ _(Note: Ruby gem dependencies will be installed automatically by Bundler.)_
 
 ## License
 
-_[MIT](https://opensource.org/licenses/MIT)_
+[MIT](https://opensource.org/licenses/MIT)_
 Copyright (c) _2022_ _Morgan Waites_
