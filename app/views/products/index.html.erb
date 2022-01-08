@@ -3,15 +3,16 @@
 <% if Product.most_reviews %>
   <h4>Product with most reviews: <%= Product.most_reviews.name %><h4>
 <% end %>
-
+<h4>Keep it local! Products made in United States: </h4>
 <% if Product.made_in_usa.any? %>
-  <h4>Keep it local! Products made in United States: </h4>
   <ul>
     <% Product.made_in_usa.each do |product_usa| %>
       <li><%= product_usa.name %></li>
       <% end %>
   </ul>
- <% end %>
+<% else %>
+  <p>Sadly, no products found from United States.</p>
+<% end %>
 
 <% if Product.most_recently_added.any? %>
 <h4>Most Resently Added Products: </h4>
