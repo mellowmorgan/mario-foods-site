@@ -14,7 +14,7 @@ class Product < ApplicationRecord
     .limit(1).first
     )}
   scope :most_recently_added, -> { order(created_at: :desc).limit(3)}
-  scope :made_in_usa, -> { where(country_of_origin: "USA") }
+  scope :made_in_usa, -> { where(country_of_origin: "United States") }
 
   private
     def titleize_product
