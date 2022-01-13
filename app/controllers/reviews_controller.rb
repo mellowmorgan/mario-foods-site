@@ -1,4 +1,5 @@
 class ReviewsController < ApplicationController
+  include Devise::Controllers::Helpers 
 
   def new
     @product = Product.find(params[:product_id]) 
