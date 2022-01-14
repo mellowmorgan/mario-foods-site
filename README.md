@@ -1,8 +1,8 @@
 # _Mario's Food Products & Reviews_
 
-#### _Ruby on Rails with Active Record Practice project for Epicodus Bootcamp_
-
 #### Created By: Morgan Waites
+
+#### Ruby on Rails app for a fictional online food products store owned by a fictitious Mario. User accounts, relational database, CRUD functionality, and other fun stuff. This project was built for Epicodus code bootcamp independent project.
 
 ## Technologies Used
 
@@ -27,7 +27,7 @@
 
 ## Description
 
-This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record. The application is for Mario's company to organize products and their reviews. The user can add/remove/edit products and reviews belonging to them, shows one-to-many relationship.
+This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record as well as generating a user with user functionality/authentication using Devise. The application is for Mario's company to organize products and their reviews. The admin user add/remove/edit products and reviews belonging to them, while non-user admin can only view products, reviews, and add reviews. Shows one-to-many relationship.
 
 ## Database Schema
 
@@ -52,7 +52,9 @@ _(Note: Ruby gem dependencies will be installed automatically by Bundler.)_
 
 ## Known Bugs
 
-* _None at this time._
+* _Mailer with Devise is not set up._
+* _This app is in development and not hosted anywhere._
+* _Will try to launch on Heroku soon._
 
 ## License
 
