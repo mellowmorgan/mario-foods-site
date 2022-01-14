@@ -1,6 +1,12 @@
 class ReviewsController < ApplicationController
   include Devise::Controllers::Helpers 
-
+  skip_before_action :authenticate_user!, :only => [:new, :show]
+  before_action :only => [ :edit, :destroy] do
+    if !current_user.admin
+      flash[:alert] = "You are not authorized to access that feature."
+    end
+    redirect_to product_path unless current_user && current_user.admin
+  end
   def new
     @product = Product.find(params[:product_id]) 
     @review = @product.reviews.new

@@ -1,8 +1,11 @@
 class ProductsController < ApplicationController
   include Devise::Controllers::Helpers 
   skip_before_action :authenticate_user!, :only => [:index, :show]
-  before_action :only => [:new, :edit,:destroy] do
-    redirect_to root_path unless current_user && current_user.admin
+  before_action :only => [:edit,:destroy] do
+    if !current_user.admin
+      flash[:alert] = "You are not authorized to access that feature."
+    end
+    redirect_to root_path unless current_user.admin
   end
   def index
     @products = Product.all
