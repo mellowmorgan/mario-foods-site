@@ -4,19 +4,16 @@
 <%= flash[:notice] %>
 </div>
 <%= render "layouts/errors", :object => @review %>
-<h2>Review for <%= @product.name %>
+<h3>Review for <%= @product.name %></h3>
+<p>
+<h4>Author: <%= @review.author %></h4>
+<h4>Rating: <%= @review.rating %></h4>
+<h4>Review: <q><%= @review.content_body %></q></h4></p>
 
-<h3>Author: <%= @review.author %></h3>
-<h3>Rating: <%= @review.rating %>
-<p>Review: <q><%= @review.content_body %></q></p>
 
-
-<p><%= link_to "Edit", edit_product_review_path(@product, @review) %></p>
-<p><%= link_to "Delete review", product_review_path(@product, @review),
+<p><%= link_to "Edit", edit_product_review_path(@product, @review) %> | <%= link_to "Delete review", product_review_path(@product, @review),
                         :data => {:confirm => "Are you sure?",
                                        :method => "delete"} %></p>
 
 
 <p><%= link_to "Return to product", product_path(@product) %></p>
-<p><%= link_to "Return to products", products_path %></p>
-</div>

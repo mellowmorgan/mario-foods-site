@@ -6,18 +6,18 @@
 <%= flash[:notice] %>
 </div>
 <%= render "layouts/errors", :object => @product %>
+<p>
 <h2><%= @product.name %></h2>
 <h3>Cost: $<%= @product.cost %></h3>
 <h3>Country of origin: <%= @product.country_of_origin %></h3>
-<p><%= link_to "Edit", edit_product_path(@product) %></p>
-
-<p><%= link_to "Delete product", product_path(@product),
+</p>
+<p><%= link_to "Edit", edit_product_path(@product) %> | <%= link_to "Delete product", product_path(@product),
                         :data => {:confirm => "Are you sure?",
                                        :method => "delete"} %></p>
 
 <p><%= link_to "Return to products", products_path %></p>
-
 <br>
+<p>
 <h2>Reviews</h2>
 <% if @product.reviews.any? %>
   <% @product.reviews.each do |review| %> 
@@ -30,7 +30,7 @@
 <% else %>
   <p>No reviews yet.</p>
 <% end %>
-
+</p>
 <p><b><%= link_to "Add a review", new_product_review_path(@product) %></b></p>
 
 

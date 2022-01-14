@@ -50,6 +50,6 @@ li.active a {
 .my-nav a{
   color:white !important;
 }
-ul,ol,h2,p{
+p{
   margin-bottom: 2rem;
 }
