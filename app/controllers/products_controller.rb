@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
   include Devise::Controllers::Helpers 
   skip_before_action :authenticate_user!, :only => [:index, :show]
-  before_action :only => [:new,:edit,:destroy] do
+  before_action :only => [:edit,:destroy] do
     if !current_user.admin
       flash[:alert] = "You are not authorized to access that feature."
     end
@@ -13,8 +13,13 @@ class ProductsController < ApplicationController
   end
 
   def new 
-    @product = Product.new
-    render :new
+    if current_user && current_user.admin?
+      @product = Product.new
+      render :new
+    else
+      flash[:alert] = "You are not authorized to access that feature."
+      redirect_to root_path
+    end
   end
 
   def create
