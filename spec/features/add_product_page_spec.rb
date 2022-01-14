@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe "the add a product process" do
   before(:each) do
+    @user2 = User.create!({email:"test@me.com", password:"help123",password_confirmation:"help123", admin:false})
     @user = User.create!({email:"me@me.com", password:"help123",password_confirmation:"help123", admin:true})
     visit '/'
     click_link 'Sign-In/Sign-Up'
@@ -33,5 +34,16 @@ describe "the add a product process" do
     click_on 'Create Product'
     expect(page).to have_content "Country of origin can't be blank"
     expect(page).to have_content "Cost can't be blank"
+  end
+  it "gives an error when non admin clicks add on index page" do
+    visit '/'
+    click_on "Sign Out"
+    click_link 'Sign-In/Sign-Up'
+    fill_in 'Email', :with => "test@me.com"
+    fill_in 'Password', :with => "help123"
+    click_on "Log in"
+    visit '/'
+    click_on 'Add a product'
+    expect(page).to have_content "You are not authorized to access that feature."
   end
 end
