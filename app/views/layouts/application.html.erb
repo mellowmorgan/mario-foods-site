@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <div class="container-fluid">
   <div class="registration">
   <% if user_signed_in? %>
     <p> <%= link_to "Edit Account", edit_user_registration_path %> | <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></p> 
@@ -22,5 +23,6 @@
   <%= flash[:notice] %>
 </div>
     <%= yield %>
+    </div>
   </body>
 </html>
