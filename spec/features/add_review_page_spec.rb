@@ -2,7 +2,13 @@ require 'rails_helper'
 
 describe "the add a review process" do
   before(:each) do
-    visit products_path
+    @user = User.create!({email:"me@me.com", password:"help123",password_confirmation:"help123", admin:true})
+    visit '/'
+    click_link 'Sign-In/Sign-Up'
+    fill_in 'Email', :with => "me@me.com"
+    fill_in 'Password', :with => "help123"
+    click_on "Log in"
+    visit '/'
     click_link 'Add a product'
     fill_in 'Name', :with => 'Canned olives'
     fill_in 'Cost', :with => 9.99

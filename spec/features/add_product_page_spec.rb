@@ -1,6 +1,14 @@
 require 'rails_helper'
 
 describe "the add a product process" do
+  before(:each) do
+    @user = User.create!({email:"me@me.com", password:"help123",password_confirmation:"help123", admin:true})
+    visit '/'
+    click_link 'Sign-In/Sign-Up'
+    fill_in 'Email', :with => "me@me.com"
+    fill_in 'Password', :with => "help123"
+    click_on "Log in"
+  end
   it "adds a new product" do
     visit products_path
     click_link 'Add a product'
