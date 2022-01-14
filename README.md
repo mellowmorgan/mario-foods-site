@@ -21,6 +21,8 @@
 * _ActiveRecord_
 * _Bootstrap scss_
 * _faker_
+* _Devise_
+* _SimpleCov_
 
 
 ## Description
@@ -29,7 +31,7 @@ This project was created for Epicodus bootcamp to show proficiency in Rails with
 
 ## Database Schema
 
-![image_of_database_schema](./public/product_review_schema.png)
+![image_of_database_schema](./public/new_schema.png)
 
 ## System Requirements
 
