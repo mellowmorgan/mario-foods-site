@@ -48,6 +48,7 @@ _(Note: Ruby gem dependencies will be installed automatically by Bundler.)_
 * Enter `rspec` into the terminal to confirm passing of all tests.
 * Run `rails s` to start the Rails server.
 * Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
+* Log in with admin@test.com password testing for admin privileges; log in with test@test.com password testing for non-admin user privileges.
 
 ## Known Bugs
 
