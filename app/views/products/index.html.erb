@@ -1,6 +1,11 @@
 <h1>Mario's Specialty Foods Site</h1>
 <div class="image-index">
 </div>
+<div class="container">
+<div class="notice">
+<%= flash[:alert] %>
+<%= flash[:notice] %>
+</div>
 <% if Product.most_reviews %>
   <h4>Product with most reviews: <%= Product.most_reviews.name %><h4>
 <% end %>
@@ -37,3 +42,4 @@
 <% else %>
   <p>No products to display yet.</p>
 <% end %>
+</div>
