@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
     if !current_user.admin
       flash[:alert] = "You are not authorized to access that feature."
     end
-    redirect_to root_path unless current_user.admin
+    redirect_to product_path(Product.find(params[:id])) unless current_user.admin
   end
   def index
     @products = Product.all
