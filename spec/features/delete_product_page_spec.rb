@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "the edit a product process" do
+describe "the delete a product process" do
   before(:each) do
     @user2 = User.create!({email:"test@me.com", password:"help123",password_confirmation:"help123", admin:false})
     @user = User.create!({email:"me@me.com", password:"help123",password_confirmation:"help123", admin:true})
@@ -16,26 +16,13 @@ describe "the edit a product process" do
     fill_in 'Country of origin', :with => 'Spain'
     click_on 'Create Product'
   end
-  it "edits a product" do
+  it "deletes a product" do
+    visit '/'
+    click_on 'Canned Olives'
+    click_on 'Delete product'
+    expect(page).to have_content 'Product deleted successfully.'
+  end
   
-    click_link 'Canned Olives'
-    click_link 'Edit'
-    fill_in 'Name', :with => 'gingerbread cookie'
-    fill_in 'Cost', :with => 2.99
-    fill_in 'Country of origin', :with => 'Germany'
-    click_on 'Update Product'
-    expect(page).to have_content 'Gingerbread Cookie'
-    expect(page).to have_no_content 'Canned Olives'
-  end
-  it "shows error message product not updated" do
-    click_link 'Canned Olives'
-    click_link 'Edit'
-    fill_in 'Name', :with => nil
-    fill_in 'Cost', :with => 2.99
-    fill_in 'Country of origin', :with => 'Germany'
-    click_on 'Update Product'
-    expect(page).to have_content "There was an error in updating your product."
-  end
   it "show message and doesn't allow if not admin" do
     click_on "Sign Out"
     click_link 'Sign-In/Sign-Up'
@@ -44,7 +31,14 @@ describe "the edit a product process" do
     click_on "Log in"
     visit products_path
     click_on 'Canned Olives'
-    click_on 'Edit'
+    click_on 'Delete product'
     expect(page).to have_content "You are not authorized to access that feature."
+  end
+  it "show message and doesn't allow if not user" do
+    click_on "Sign Out"
+    visit products_path
+    click_on 'Canned Olives'
+    click_on 'Delete product'
+    expect(page).to have_content "You need to sign in or sign up before continuing."
   end
 end
