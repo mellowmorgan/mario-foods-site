@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe "the delete a review process" do
   before(:each) do
+    @user2 = User.create!({email:"test@me.com", password:"help123",password_confirmation:"help123", admin:false})
     @user = User.create!({email:"me@me.com", password:"help123",password_confirmation:"help123", admin:true})
     visit '/'
     click_link 'Sign-In/Sign-Up'
@@ -28,5 +29,17 @@ describe "the delete a review process" do
     click_on 'Delete review'
     expect(page).to have_no_content 'Morgan'
     expect(page).to have_content 'Review deleted successfully.'
+  end
+  it "show message and doesn't allow if not admin" do
+    click_on "Sign Out"
+    click_link 'Sign-In/Sign-Up'
+    fill_in 'Email', :with => "test@me.com"
+    fill_in 'Password', :with => "help123"
+    click_on "Log in"
+    visit products_path
+    click_on 'Canned Olives'
+    click_on 'Review by Morgan'
+    click_on 'Delete review'
+    expect(page).to have_content "You are not authorized to access that feature."
   end
 end
