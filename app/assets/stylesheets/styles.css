@@ -37,9 +37,16 @@ a:hover, a:active, li a:hover, li a:active {
 li.active a {
   color: grey !important;
 }
+li,a{
+  font-size: 1.5rem;
+}
+input{
+  color:black;
+}
 .my-nav{
+  position: absolute;
+  width:100%;
   height:fit-content;
-  block-size: fit-content;
   word-spacing: .5rem;
   color:white ;
   background-color: black;
@@ -57,7 +64,6 @@ p{
   margin-bottom: 2rem;
 }
 
-.search{
-  float:right;
-  width:25rem;
+input{
+  margin-bottom: .75rem;
 }
