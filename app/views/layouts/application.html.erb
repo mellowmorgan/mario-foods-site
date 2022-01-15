@@ -18,7 +18,7 @@
       <% else %>
         <%= link_to "Sign-In/Sign-Up", new_user_session_path %>
       <% end %>
-        <%= form_tag searches_path, method: :get, style: "float:right;" do %>
+        <%= form_tag searches_path, class:"form-nav", method: :get do %>
         <%= text_field_tag 'search', nil, placeholder: "Search" %>
         <%= submit_tag 'Search', name: nil %>
         <% end %>
