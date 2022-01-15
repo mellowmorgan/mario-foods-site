@@ -1,0 +1,16 @@
+<h1>Mario's Specialty Foods Site</h1>
+<div class="image-index"></div>
+<div class="container">
+
+  <% if @results.any? %>
+    <p><h3>Product Results</h3>
+      <% @results.each do |product| %>
+        <li><%= link_to product.name, product_path(product) %></li>
+      <% end %>
+    </ul>
+  <% else %>
+    <p>No results found.</p>
+  <% end %>
+  </p>
+
+</div>

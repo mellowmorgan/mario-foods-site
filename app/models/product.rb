@@ -5,6 +5,12 @@ class Product < ApplicationRecord
   validates :country_of_origin, presence: true
   before_save(:titleize_product)
   before_save(:shave_cost_decimals)
+  scope :search_products, -> (name_parameter) { }
+
+  def self.search_products(parameter)
+    parameter.capitalize!
+    where("name || country_of_origin like ?", "%#{parameter}%")
+  end
 
   scope :most_reviews, -> {(
     select("products.id, products.name, products.cost, products.country_of_origin, count(reviews.id) as reviews_count")

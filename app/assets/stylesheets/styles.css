@@ -38,6 +38,8 @@ li.active a {
   color: grey !important;
 }
 .my-nav{
+  height:fit-content;
+  block-size: fit-content;
   word-spacing: .5rem;
   color:white ;
   background-color: black;
@@ -49,7 +51,13 @@ li.active a {
 }
 .my-nav a{
   color:white !important;
+  
 }
 p{
   margin-bottom: 2rem;
+}
+
+.search{
+  float:right;
+  width:25rem;
 }
