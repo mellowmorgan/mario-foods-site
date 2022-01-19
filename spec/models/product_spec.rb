@@ -40,5 +40,15 @@ describe Product do
       expect(Product.most_reviews).to(eq(product1))
     end
   end
-  
+  describe ('.search_products()') do
+    it("returns products matching name or country of origin argument") do
+      product1 = Product.create({name: "canned olives", cost: 3.99, country_of_origin: "Italy"})
+      product2 = Product.create({name: "vegan cheddar", cost: 5.99, country_of_origin: "United States of America"})
+      product3 = Product.create({name: "pink artichokes", cost: 5.99, country_of_origin: "Italy"})
+      product4 = Product.create({name: "red wine", cost: 1.99, country_of_origin: "France"})
+      product5 = Product.create({name: "black bean tempeh", cost: 5.99, country_of_origin: "United States of America"})
+      expect(Product.search_products("United States of America")).to(eq([product2, product5]))
+      expect(Product.search_products("vegan")).to(eq([product2]))
+    end
+  end
 end

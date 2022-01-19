@@ -8,8 +8,7 @@ class Product < ApplicationRecord
   scope :search_products, -> (name_parameter) { }
 
   def self.search_products(parameter)
-    parameter.capitalize!
-    where("name || country_of_origin like ?", "%#{parameter}%")
+    where("name || country_of_origin ILIKE ?", "%#{parameter}%")
   end
 
   scope :most_reviews, -> {(
