@@ -742,6 +742,16 @@
           null
         ]
       },
+      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          31,
+          null,
+          null
+        ]
+      },
       "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/products_controller.rb": {
         "lines": [
           1,
@@ -754,8 +764,8 @@
           5,
           null,
           1,
-          99,
-          99,
+          43,
+          43,
           null,
           null,
           1,
@@ -927,14 +937,14 @@
           null,
           null,
           1,
-          199,
+          63,
           null,
           null,
           null,
           null,
           null,
-          140,
-          101,
+          37,
+          33,
           null,
           1,
           1,
@@ -1318,6 +1328,6 @@
         ]
       }
     },
-    "timestamp": 1642210928
+    "timestamp": 1642554491
   }
 }

@@ -17,7 +17,7 @@ describe "the delete a product process" do
     click_on 'Create Product'
   end
   it "deletes a product" do
-    visit '/'
+    visit 'products/'
     click_on 'Canned Olives'
     click_on 'Delete product'
     expect(page).to have_content 'Product deleted successfully.'
