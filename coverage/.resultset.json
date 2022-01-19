@@ -747,7 +747,7 @@
           1,
           1,
           1,
-          31,
+          33,
           null,
           null
         ]
@@ -764,14 +764,14 @@
           5,
           null,
           1,
-          43,
-          43,
+          45,
+          45,
           null,
           null,
           1,
+          23,
           22,
-          21,
-          21,
+          22,
           null,
           1,
           1,
@@ -779,10 +779,10 @@
           null,
           null,
           1,
-          18,
-          18,
-          16,
-          16,
+          19,
+          19,
+          17,
+          17,
           null,
           null,
           2,
@@ -819,7 +819,7 @@
           null,
           1,
           1,
-          20,
+          21,
           null,
           null
         ]
@@ -899,9 +899,9 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -932,27 +932,27 @@
           1,
           null,
           1,
-          2,
+          3,
           null,
           null,
           1,
-          63,
+          67,
           null,
           null,
           null,
           null,
           null,
+          40,
+          35,
+          null,
+          1,
+          1,
           37,
-          33,
-          null,
-          1,
-          1,
-          36,
           null,
           null,
           1,
           1,
-          36,
+          37,
           null,
           null,
           null
@@ -1254,6 +1254,36 @@
           null
         ]
       },
+      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/search_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/morganwaites/Downloads/mario-foods-site/spec/models/product_spec.rb": {
         "lines": [
           1,
@@ -1337,6 +1367,6 @@
         ]
       }
     },
-    "timestamp": 1642556050
+    "timestamp": 1642556312
   }
 }
