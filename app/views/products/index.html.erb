@@ -5,28 +5,6 @@
     <%= flash[:alert] %>
     <%= flash[:notice] %>
   </div>
-  <% if Product.most_reviews %>
-    <p><h4>Product with most reviews: <%= Product.most_reviews.name %><h4></p>
-  <% end %>
-  <p><h4>Keep it local! Products made in United States of America: </h4>
-  <% if Product.made_in_usa.any? %>
-    <ul>
-      <% Product.made_in_usa.each do |product_usa| %>
-        <li><%= product_usa.name %></li>
-        <% end %>
-    </ul>
-  <% else %>
-    <p>Sadly, no products found from United States of America.</p>
-  <% end %></p>
-
-  <% if Product.most_recently_added.any? %>
-  <p><h4>Most Resently Added Products: </h4>
-    <ol>
-    <% Product.most_recently_added.each do |product_recent| %>
-      <li><%= product_recent.name %></li>
-    <% end %>
-    </ol></p>
-  <% end %>
 
   <p><b><%= link_to "Add a product", new_product_path %></b></p>
 

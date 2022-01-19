@@ -690,6 +690,7 @@
           1,
           1,
           null,
+          1,
           null
         ]
       },
@@ -881,6 +882,20 @@
           null
         ]
       },
+      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/searches_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/morganwaites/Downloads/mario-foods-site/app/jobs/application_job.rb": {
         "lines": [
           1,
@@ -904,6 +919,12 @@
           1,
           1,
           1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
           null,
           1,
           199,
@@ -1297,6 +1318,6 @@
         ]
       }
     },
-    "timestamp": 1642200659
+    "timestamp": 1642210928
   }
 }
