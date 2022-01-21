@@ -6,13 +6,13 @@
     <%= flash[:notice] %>
   </div>
   <% if Product.most_reviews %>
-    <p><h4>Product with most reviews: <%= Product.most_reviews.name %><h4></p>
+    <p><h4>Product with most reviews: <%= link_to Product.most_reviews.name, product_path(Product.most_reviews) %><h4></p>
   <% end %>
   <p><h4>Keep it local! Products made in United States of America: </h4>
   <% if Product.made_in_usa.any? %>
     <ul>
       <% Product.made_in_usa.each do |product_usa| %>
-        <li><%= product_usa.name %></li>
+        <li><%= link_to product_usa.name, product_path(product_usa) %></li>
         <% end %>
     </ul>
   <% else %>
@@ -23,7 +23,7 @@
   <p><h4>Most Resently Added Products: </h4>
     <ol>
     <% Product.most_recently_added.each do |product_recent| %>
-      <li><%= product_recent.name %></li>
+      <li><%= link_to product_recent.name, product_path(product_recent) %></li>
     <% end %>
     </ol></p>
   <% end %>
