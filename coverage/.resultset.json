@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/add_product_page_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/add_product_page_spec.rb": {
         "lines": [
           1,
           null,
@@ -54,7 +54,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/rails_helper.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -129,7 +129,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/environment.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -138,7 +138,7 @@
           1
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/application.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/application.rb": {
         "lines": [
           1,
           null,
@@ -175,7 +175,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/boot.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -183,7 +183,7 @@
           1
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/environments/test.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -233,7 +233,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/application_controller_renderer.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -245,7 +245,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/assets.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -263,7 +263,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/backtrace_silencers.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -274,7 +274,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/content_security_policy.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -303,7 +303,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/cookies_serializer.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -312,7 +312,7 @@
           1
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/devise.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/devise.rb": {
         "lines": [
           null,
           null,
@@ -627,7 +627,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/filter_parameter_logging.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -635,7 +635,7 @@
           1
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/inflections.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -655,7 +655,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/mime_types.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -663,7 +663,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/initializers/wrap_parameters.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -681,7 +681,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/config/routes.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -694,7 +694,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/models/user.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -704,7 +704,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/models/application_record.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/models/application_record.rb": {
         "lines": [
           1,
           1,
@@ -712,7 +712,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/application_controller.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -720,21 +720,13 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/helpers/application_helper.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/channels/application_cable/channel.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/channels/application_cable/connection.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/channels/application_cable/channel.rb": {
         "lines": [
           1,
           1,
@@ -742,17 +734,26 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/home_controller.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/channels/application_cable/connection.rb": {
         "lines": [
           1,
           1,
-          1,
-          33,
           null,
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/products_controller.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/controllers/home_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          59,
+          null,
+          null
+        ]
+      },
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/controllers/products_controller.rb": {
         "lines": [
           1,
           1,
@@ -824,7 +825,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/reviews_controller.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/controllers/reviews_controller.rb": {
         "lines": [
           1,
           1,
@@ -892,7 +893,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/controllers/searches_controller.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/controllers/searches_controller.rb": {
         "lines": [
           1,
           1,
@@ -906,13 +907,13 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/jobs/application_job.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/jobs/application_job.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/mailers/application_mailer.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/mailers/application_mailer.rb": {
         "lines": [
           1,
           1,
@@ -920,7 +921,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/models/product.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/models/product.rb": {
         "lines": [
           1,
           1,
@@ -936,14 +937,14 @@
           null,
           null,
           1,
-          67,
+          178,
           null,
           null,
           null,
           null,
           null,
-          40,
-          35,
+          71,
+          61,
           null,
           1,
           1,
@@ -958,7 +959,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/app/models/review.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/app/models/review.rb": {
         "lines": [
           1,
           1,
@@ -971,7 +972,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/add_review_page_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/add_review_page_spec.rb": {
         "lines": [
           1,
           null,
@@ -1025,103 +1026,6 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/delete_product_page_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/delete_review_page_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           1,
           1,
           1,
@@ -1137,7 +1041,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/edit_product_page_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/delete_product_page_spec.rb": {
         "lines": [
           1,
           null,
@@ -1158,6 +1062,11 @@
           3,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           1,
           1,
@@ -1167,20 +1076,9 @@
           1,
           1,
           1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           null,
-          1,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -1191,46 +1089,32 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/edit_review_page_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/delete_review_page_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
           1,
           1,
           1,
@@ -1254,7 +1138,124 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/features/search_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/edit_product_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/edit_review_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/features/search_spec.rb": {
         "lines": [
           1,
           null,
@@ -1284,7 +1285,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/models/product_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/models/product_spec.rb": {
         "lines": [
           1,
           null,
@@ -1342,7 +1343,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/models/review_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/models/review_spec.rb": {
         "lines": [
           1,
           null,
@@ -1357,7 +1358,7 @@
           null
         ]
       },
-      "/Users/morganwaites/Downloads/mario-foods-site/spec/models/user_spec.rb": {
+      "/Users/morganwaites/Desktop/epicodus-projects/mario-foods-site/spec/models/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -1367,6 +1368,6 @@
         ]
       }
     },
-    "timestamp": 1642556312
+    "timestamp": 1642727345
   }
 }
