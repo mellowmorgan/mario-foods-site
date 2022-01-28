@@ -2,6 +2,8 @@
 
 #### Created By: Morgan Waites
 
+View it here: https://mario-specialty-foods.herokuapp.com/
+
 #### Ruby on Rails app for a fictional online food products store owned by a fictitious Mario. User accounts, relational database, CRUD functionality, and other fun stuff. This project was built for Epicodus code bootcamp independent project.
 
 ## Technologies Used
@@ -23,11 +25,12 @@
 * _faker_
 * _Devise_
 * _SimpleCov_
+* _Heroku_
 
 
 ## Description
 
-This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record as well as generating a user with user functionality/authentication using Devise. The application is for Mario's company to organize products and their reviews. The admin user add/remove/edit products and reviews belonging to them, while non-user admin can only view products, reviews, and add reviews. Shows one-to-many relationship.
+This project was created for Epicodus bootcamp to show proficiency in Rails with Active Record as well as generating a user with user functionality/authentication using Devise. The application is for Mario's company to organize products and their reviews. The admin user add/remove/edit products and reviews belonging to them, while non-user admin can only view products, reviews, and add reviews. Shows one-to-many relationship. Deployed with Heroku hosted [here](https://mario-specialty-foods.herokuapp.com/).
 
 ## Database Schema
 
