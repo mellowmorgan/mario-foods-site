@@ -13,6 +13,7 @@
 
   <body>
     <div class="my-nav">
+      <span style="color:#8d8d8d;">Mario's Specialty Foods </span> | 
       <%= link_to "Home", root_path %> | 
       <% if user_signed_in? %>
         <%= link_to "Edit Account", edit_user_registration_path %> | <%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
